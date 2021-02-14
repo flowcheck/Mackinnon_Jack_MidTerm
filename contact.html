@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Peroni Site Ontap</title>
+		<!-- link to reset first!!! -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1></h1>
+		<script src="js/main.js"></script>
+	</body>
+		<h1 class="hidden">Peroni Premiere Beer</h1>
+		<div id="container">
+			<header id="mainHeader">
+				<img src="images/PERONILOGO.jpg" alt="Peroni Logo" id="logo">
+				<nav id="mainNav">
+					<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="brewing.html">BREWING</a></li>
+						<li><a href="aboutus.html">ABOUT US</a></li>
+						<li><a href="ontap.html">ON TAP</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div>
+				<main id="mainContact">
+                    <h2>Contact Us</h2>
+        				<section id="contactArea">
+               				<h2 class="hidden">Contact form</h2>
+                				<p id="contactText">For any questions regarding Peroni, fill in this form and our support team will be back with you in 2-3 business days. </p> 
+            				<form id="contactForm" action="form.php" method="post">
+                    			<label for="name">Name:</label>
+                    			<input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    			<label for="email">Email:</label>
+                    			<input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    			<label for="phone">Phone:</label>
+                   				<input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    			<label for="comments">Comments:</label>
+                   				<textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+
+                    			<input id="submit" type="submit" value="Submit">
+            			</form>
+            		</div>
+        	</section>
+			<footer id="Footer">
+				<nav id="footerNav">
+					<h2 class="hidden">Footer Nav</h2>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="brewing.html">BREWING</a></li>
+						<li><a href="aboutus.html">ABOUT US</a></li>
+						<li><a href="ontap.html">ON TAP</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div> <!-- closing container -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
