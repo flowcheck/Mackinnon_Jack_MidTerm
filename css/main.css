@@ -3,17 +3,14 @@
 	display: none;
 }
 
-/*Main Page Elements*/
 #container
 {
 	width: 1170px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin: 0 auto; /*center container*/
-	/*background-color: #efefef;*/
+	margin: 0 auto;
 }
 
-/*Header*/
 #mainHeader
 {
 	display: flex;
@@ -83,6 +80,8 @@
 
 #PeroniMainText h3
 {
+	border-top: 1px dashed #215445;
+	padding-top: 60px;
 	font-size: 20px;
 	color: #215445;
 	margin-bottom: 40px;
@@ -100,7 +99,6 @@
 	padding-bottom: 15px;
 	margin-left: 330px;
 	margin-top: 40px;
-	transition: all .2s linear;
 }
 
 #Order:hover
@@ -121,7 +119,7 @@
 
 #options section
 {
-	width: 370px;
+	width: 410px;
 }
 
 #options h2
@@ -130,4 +128,67 @@
 	color: #1658A8;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#Footer
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#footerNav ul
+{
+	margin-top: 35px;
+	display: flex;
+	flex-direction: row;
+}
+
+#footerNav ul li a
+{
+	margin-left: 20px;
+	display: block;
+	width: 100px;
+	background-color: #1658A8;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #75C043;
+	color: #1658A8;
+}
+
+#ONTAPText
+{
+	display: flex;
+	flex-direction: reverse-row;
+	margin-top: 50px;
+}
+
+#ONTAPMainText
+{
+	width: 500px;
+	margin-right: auto;
+}
+
+#ONTAPMainText h2
+{
+	font-size: 36px;
+	color: #215445;
+	margin-bottom: 20px;
+}
+
+#ONTAPMainText h3
+{
+	border-top: 1px dashed #215445;
+	padding-top: 60px;
+	font-size: 20px;
+	color: #215445;
+	margin-bottom: 40px;
+	letter-spacing: .5px;
 }
