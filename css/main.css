@@ -2,3 +2,132 @@
 {
 	display: none;
 }
+
+/*Main Page Elements*/
+#container
+{
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto; /*center container*/
+	/*background-color: #efefef;*/
+}
+
+/*Header*/
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	height: 120px;
+	margin-top: 20px;
+}
+
+#logo
+{
+	display: block;
+	width: 170px;
+	margin-top: 5px;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#mainNav ul
+{
+	margin-top: 35px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	margin-left: 20px;
+	display: block;
+	width: 100px;
+	background-color: #1658A8;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #75C043;
+	color: #1658A8;
+}
+
+#PeroniText
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+#PeroniMainText
+{
+	width: 500px;
+	margin-right: auto;
+}
+
+#PeroniMainText h2
+{
+	font-size: 36px;
+	color: #215445;
+	margin-bottom: 20px;
+}
+
+#PeroniMainText h3
+{
+	font-size: 20px;
+	color: #215445;
+	margin-bottom: 40px;
+	letter-spacing: .5px;
+}
+
+#Order
+{
+	display: block;
+	width: 150px;
+	color: #fff;
+	text-align: center;
+	background: #1658A8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 330px;
+	margin-top: 40px;
+	transition: all .2s linear;
+}
+
+#Order:hover
+{
+	border-radius: 10px;
+	color: #75C043;
+}
+
+#options
+{
+	display: flex;
+	flex-direction: row;
+	width: 1170px;
+	justify-content: space-around;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#options section
+{
+	width: 370px;
+}
+
+#options h2
+{
+	font-size: 30px;
+	color: #1658A8;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
